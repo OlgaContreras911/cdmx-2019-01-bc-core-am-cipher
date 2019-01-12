@@ -6,9 +6,40 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      <h1>Hola mundo mundial por siempre!</h1>
-    </div>
+    <div id="box1">
+      <h1>Cipher Secret Message</h1>
+      <p>Ingresa tu nombre para comenzar a utilizar este servicio
+        y cifrar tus conversaciones 
+      </p>
+<input id='name'
+type= 'text' placeholder= 'Ingresa tu nombre'>
+<input id= 'aceptar' 
+type= 'button' value= 'aceptar'>
+</div>
+<div id='box2' class= 'ocultar'>
+  <p id= 'userww' ></p>
+  <p align= 'center'> Las intrucciones para el
+      de este codificador son las siguientes: </p>
+  <ol>
+    <li align= 'center'>Selecciona el número de espacios
+          que te gustaría se recorra la primera letra del abecedario
+    </li>
+    <li align= 'center' >Ingresa el mensaje que te gustaría
+        codificar/decodificar
+    </li>
+    <li align= 'center'>Da click en el botón
+        codificar/decodificar
+   </li>
+   <li align= 'center'>Disfruta tu mensaje, solo copia y pega
+      donde tu quieras 
+  </li>
+  </ol>
+<input id= 'continuar' type= 'button' value= 'continuar'>
+</div> 
+
+<div id= 'box3' class= 'ocultar'>
+    <p>Ingresa tu mensaje</p> 
+</div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
