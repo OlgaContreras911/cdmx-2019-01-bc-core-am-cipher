@@ -8,9 +8,9 @@
   <body>
     <div id="box1">
       <h1>Cipher Secret Message</h1>
-      <p>Ingresa tu nombre para comenzar a utilizar este servicio
+      <h2>Ingresa tu nombre para comenzar a utilizar este servicio
         y cifrar tus conversaciones 
-      </p>
+      </h2>
 <input id='name'
 type= 'text' placeholder= 'Ingresa tu nombre'>
 <input id= 'aceptar' 
@@ -38,7 +38,13 @@ type= 'button' value= 'aceptar'>
 </div> 
 
 <div id= 'box3' class= 'ocultar'>
-    <p>Ingresa tu mensaje</p> 
+    <p>¡Empecemos!</p> 
+    <input id= 'numerosab' type= 'text' placeholder= 'Espacios a recorrer'>
+    <textarea placeholder='Ingresa tu mensaje....'></textarea>
+    <input id= 'codificar' type='button' value='codificar'>
+    <input id= 'decodificar' type= 'button' value= 'decodificar'>
+    <textarea placeholder= 'Tu mesaje ahora es....'></textarea>
+    <input id= 'finalizar' type= 'button' value= 'finalizar'>
 </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>

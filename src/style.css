@@ -6,7 +6,24 @@ h1{ color: rgb(10, 70, 10);
     font-size: 2cm;
     font-family: 'Lucida Sans';
 }
+h2{
+    color: rgb(10, 70, 10);
+    background-color: aqua;
+    font-family: 'Lucida Sans';
+}
 #box1{
+    border:5px solid black; 
+    background-image: url(https://media.tenor.com/images/e5f477f2b76c22e3def700c6bd7ef036/tenor.gif);
+    height:650px;
+}
+#box2{
 
+    background-color: palevioletred;
+     height: 650px;
+
+}
+#box3{
+    background-color: palevioletred;
+     height: 650px;
 }
 }
