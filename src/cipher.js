@@ -17,11 +17,11 @@ window.cipher = {
 
   },
   acept:() => {
-    const name=document.getElementById('name').value;
-    userww=document.getElementById('userww');
-    userww.innerHTML= 'Binevenido(a) ' +name ;
-   box1.classList.add('ocultar');
-   box2.classList.remove('ocultar');    
+  const name=document.getElementById('name').value;
+  userww=document.getElementById('userww');
+  userww.innerHTML= 'Binevenido(a) ' +name ;
+  box1.classList.add('ocultar');
+  box2.classList.remove('ocultar');    
 },
 
 };

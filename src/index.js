@@ -4,6 +4,6 @@ const continuar = document.getElementById('continuar');
 continuar.addEventListener('click', window.cipher.continuar);
 const finalizar= document.getElementById('finalizar');
 finalizar.addEventListener('click', window.cipher.finalizar);
-evenet = encode 
+event = encode 
 
 event = decode
