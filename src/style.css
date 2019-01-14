@@ -49,9 +49,63 @@ h2{
 li{
     list-style-type: decimal;
     text-align: center;
-    padding: 15px rgb;
 }
 #instrucciones{
     text-align: center;
+}
+#box4{
+   
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 500px;
+}
+#box5{
+
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 500px;
+    
+}
+#codificar{
+    border: 3px solid rgb(10, 70, 10);
+    color:rgb(10, 70, 10);
+    font-family: 'Lucida Sans';
+    font-weight: bold;
+    display: inline-block;
+    font-size: 14px;
+}
+#decodificar{
+    border: 3px solid rgb(10, 70, 10);
+    color:rgb(10, 70, 10);
+    font-family: 'Lucida Sans';
+    font-weight: bold;
+    display: inline-block;
+    font-size: 14px;
+}
+#finalizar{
+    border: 3px solid rgb(10, 70, 10);
+    color:rgb(10, 70, 10);
+    font-family: 'Lucida Sans';
+    font-weight: bold;
+    display: inline-block;
+    font-size: 14px;
+}
+#continuar{
+    border: 3px solid rgb(10, 70, 10);
+    color:rgb(10, 70, 10);
+    font-family: 'Lucida Sans';
+    font-weight: bold;
+    display: inline-block;
+    font-size: 14px;   
+}
+#cajacodificar{
+    width:500px;
+    height:100px;
+}
+#cajadecodificar{
+    width:500px;
+    height:100px;
 }
 }
