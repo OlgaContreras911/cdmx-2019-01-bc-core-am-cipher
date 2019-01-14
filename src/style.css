@@ -110,7 +110,14 @@ li{
 #box7{
     display: inline-block;
 }
-
+#box8{
+    display: inline-block;
+}
+#box9{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 35px;
+}
 #cajacodificar{
     width:500px;
     height:100px;
