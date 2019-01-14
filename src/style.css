@@ -130,7 +130,17 @@ li{
 
 }
 #lista1{
-    
+    list-style-position: inside;
 
 }
+ol li {
+    background: #ffe5e5;
+    padding: 5px;
+    margin-left: 35px;
+  }
+  
+  ul li {
+    background: #cce5ff;
+    margin: 5px;
+  }
 }
