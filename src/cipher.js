@@ -24,4 +24,5 @@ window.cipher = {
   box2.classList.remove('ocultar');    
 },
 
+
 };
