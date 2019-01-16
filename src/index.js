@@ -6,7 +6,8 @@ const finalizar= document.getElementById('finalizar');
 finalizar.addEventListener('click', window.cipher.finalizar);
 const encode= document.getElementById('codificar');
 encode.addEventListener('click', window.cipher.encode);
-
+const decode= document.getElementById('decodificar');
+decode.addEventListener('click', window.cipher.decode);
 
 /*const cajacodificar= document.getElementById("cajacodificar");
 const codificar= document.getElementById('codificar');
@@ -28,6 +29,3 @@ function msj(){
 alert(cifradoFinal+'.');
 }
 */
-event = encode 
-
-event = decode
