@@ -29,6 +29,7 @@ h2{
      height: 650px;
 }
 #aceptar{
+    height: 25px;
     background-color: aqua;
     border: 3px solid rgb(10, 70, 10);
     color:rgb(10, 70, 10);
@@ -36,15 +37,16 @@ h2{
     font-family: 'Lucida Sans';
     font-weight: bold;
     display: inline-block;
-    font-size: 14px;
+    font-size: 20px;
   }
 #name{
+    height: 25px;
     border: 3px solid rgb(10, 70, 10);
     color:rgb(10, 70, 10);
     font-family: 'Lucida Sans';
     font-weight: bold;
     display: inline-block;
-    font-size: 14px;
+    font-size: 20px;
 }
 li{
     list-style-type: decimal;
@@ -70,6 +72,7 @@ li{
     
 }
 #codificar{
+    height: 25px;
     border: 3px solid rgb(10, 70, 10);
     color:rgb(10, 70, 10);
     font-family: 'Lucida Sans';
@@ -79,6 +82,7 @@ li{
     font-size: 14px;
 }
 #decodificar{
+    height: 25px;
     border: 3px solid rgb(10, 70, 10);
     color:rgb(10, 70, 10);
     font-family: 'Lucida Sans';
@@ -87,6 +91,7 @@ li{
     font-size: 14px;
 }
 #finalizar{
+    height: 25px;
     border: 3px solid rgb(10, 70, 10);
     color:rgb(10, 70, 10);
     font-family: 'Lucida Sans';
@@ -95,6 +100,7 @@ li{
     font-size: 14px;
 }
 #continuar{
+    height: 25px;
     border: 3px solid rgb(10, 70, 10);
     color:rgb(10, 70, 10);
     font-family: 'Lucida Sans';
@@ -127,12 +133,25 @@ li{
     height:100px;
 }
 #numerosab{
+    text-align: center;
+    height: 25px;
+    width: 300px;
+    border: 3px solid rgb(10, 70, 10);
+    color:rgb(10, 70, 10);
+    font-family: 'Lucida Sans';
+    font-weight: bold;
+    display: inline-block;
+    font-size: 20px;   
+    size:"100"
+
+    
 
 }
 #lista1{
     list-style-position: inside;
 
 }
+
 ol li {
     background: #ffe5e5;
     padding: 5px;
@@ -144,4 +163,17 @@ ol li {
     background: #cce5ff;
     margin: 5px;
   }
+
+  h4{
+    font-size: 25px;
+    color: rgb(10, 70, 10);
+    background-color: aqua;
+    font-family: 'Lucida Sans';
+} 
+
+h3{
+    font-size: 25px;
+    color: rgb(10, 70, 10);
+    background-color: aqua;
+    font-family: 'Lucida Sans';
 }

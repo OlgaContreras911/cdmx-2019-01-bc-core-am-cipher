@@ -8,7 +8,6 @@ const encode= document.getElementById('codificar');
 encode.addEventListener('click', window.cipher.encode);
 const decode= document.getElementById('decodificar');
 decode.addEventListener('click', window.cipher.decode);
-
 /*const cajacodificar= document.getElementById("cajacodificar");
 const codificar= document.getElementById('codificar');
 const offset= parseInt(document.getElementById('numerosab').value);
