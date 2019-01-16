@@ -23,10 +23,10 @@ window.cipher = {
       let resultadoFinal= String.fromCharCode(formulaCifrado);
       primerCifrado += resultadoFinal;
       document.getElementById('cajadecodificar').innerHTML= primerCifrado;
-      document.getElementById('segundarespuesta').innerHTML= primerCifrado;
+      ;
 
     }
-    console.log(primerCifrado)
+   
       
   },
     decode:()=>{
@@ -50,8 +50,5 @@ window.cipher = {
   box2.classList.remove('ocultar');    
 },
 
-suma:(a,b)=>{
-  return a+b
-}
 
 };
