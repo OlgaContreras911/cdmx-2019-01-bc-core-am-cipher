@@ -1,13 +1,12 @@
+
+
 const acept = document.getElementById('aceptar');
 acept.addEventListener("click", window.cipher.acept);
 const continuar = document.getElementById('continuar');
 continuar.addEventListener('click', window.cipher.continuar);
 const finalizar= document.getElementById('finalizar');
 finalizar.addEventListener('click', window.cipher.finalizar);
-const encode= document.getElementById('codificar');
-encode.addEventListener('click', window.cipher.encode);
-const decode= document.getElementById('decodificar');
-decode.addEventListener('click', window.cipher.decode);
+
 /*const cajacodificar= document.getElementById("cajacodificar");
 const codificar= document.getElementById('codificar');
 const offset= parseInt(document.getElementById('numerosab').value);
@@ -28,3 +27,21 @@ function msj(){
 alert(cifradoFinal+'.');
 }
 */
+
+const codificar= document.getElementById('codificar');
+const decodificar= document.getElementById('decodificar');
+let valorOffset= document.getElementById('numerosab');
+let mayus = document.getElementById('cajacodificar');
+
+codificar.addEventListener('click', ()=>{
+
+    let newValorOffset= parseInt(valorOffset).value;
+    let newMayus = mayus.value.toUpperCase();
+    window.cipher.encode(newValorOffset, newMayus)    
+});
+decodificar.addEventListener('click', ()=>{
+
+    let newValorOffset= parseInt(valorOffset).value;
+    let newMayus = mayus.value.toUpperCase();
+    window.cipher.decode(newValorOffset, newMayus)
+});
