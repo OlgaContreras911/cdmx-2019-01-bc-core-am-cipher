@@ -36,19 +36,23 @@ let cajaDecodificar= document.getElementById('cajadecodificar')
 let buttonAceptar= document.getElementById('aceptar')
 let buttonContinuar=document.getElementById('continuar')
 let buttonFinalizar=document.getElementById('finalizar')
+
 codificar.addEventListener('click', ()=>{
 
     let newValorOffset= valorOffset.value;
     let newMayus = mayus.value.toUpperCase();
     const resultadoImpreso= window.cipher.encode(newValorOffset, newMayus) 
    cajaDecodificar.innerHTML= resultadoImpreso;
+   
 
 });
 decodificar.addEventListener('click', ()=>{
 
-    let newValorOffset= parseInt(valorOffset).value;
+    let newValorOffset= valorOffset.value;
     let newMayus = mayus.value.toUpperCase();
     window.cipher.decode(newValorOffset, newMayus)
+    const resultadoImpreso2= window.cipher.decode(newValorOffset, newMayus) 
+   cajaDecodificar.innerHTML= resultadoImpreso2;
 });
 
   const acept=() => {
