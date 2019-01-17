@@ -52,7 +52,7 @@ decodificar.addEventListener('click', ()=>{
     let newMayus = mayus.value.toUpperCase();
     window.cipher.decode(newValorOffset, newMayus)
     const resultadoImpreso2= window.cipher.decode(newValorOffset, newMayus) 
-   cajaDecodificar.innerHTML= resultadoImpreso2;
+    cajaDecodificar.innerHTML= resultadoImpreso2;
 });
 
   const acept=() => {
