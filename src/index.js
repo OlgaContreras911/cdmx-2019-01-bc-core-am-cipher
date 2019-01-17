@@ -61,7 +61,7 @@ decodificar.addEventListener('click', ()=>{
     const box1 = document.getElementById("box1");
     const box2 = document.getElementById("box2");
 
-    userww.innerHTML= 'Binevenido(a) ' +name;
+    userww.innerHTML= 'Bienvenido(a) ' +name;
     box1.classList.add('ocultar');
     box2.classList.remove('ocultar');    
 }
