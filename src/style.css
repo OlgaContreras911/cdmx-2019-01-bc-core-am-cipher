@@ -1,155 +1,177 @@
-.ocultar{
+* {
+    
+    margin: 0;
+    padding: 0;
+  
+  }
+
+.ocultar {
     display: none;
 }
-h1{ 
+
+h1 {
     color: rgb(10, 70, 10);
     background-color: aqua;
     text-align: center;
     font-size: 2cm;
     font-family: 'Lucida Sans';
+    margin-bottom: 5%;
 }
-h2{
+
+h2 {
     color: rgb(10, 70, 10);
     background-color: aqua;
     font-family: 'Lucida Sans';
+    margin-bottom: 5%;
 }
-#box1{
-    border:5px solid black; 
+
+#box1 {
+    border: 5px solid black;
     background-image: url(https://media.tenor.com/images/e5f477f2b76c22e3def700c6bd7ef036/tenor.gif);
-    height:650px;
+    height: 650px;
 }
-#box2{
 
+#box2 {
     background-color: palevioletred;
-     height: 650px;
+    height: 650px;
+}
 
-}
-#box3{
+#box3 {
     background-color: palevioletred;
-     height: 650px;
+    height: 650px;
 }
-#aceptar{
+
+#aceptar {
     height: 30px;
     background-color: aqua;
     border: 3px solid rgb(10, 70, 10);
-    color:rgb(10, 70, 10);
+    color: rgb(10, 70, 10);
     text-align: center;
     font-family: 'Lucida Sans';
     font-weight: bold;
     display: inline-block;
     font-size: 20px;
-  }
-#name{
+}
+
+#name {
     height: 25px;
     border: 3px solid rgb(10, 70, 10);
-    color:rgb(10, 70, 10);
+    color: rgb(10, 70, 10);
     font-family: 'Lucida Sans';
     font-weight: bold;
     display: inline-block;
     font-size: 20px;
 }
-li{
+
+li {
     list-style-type: decimal;
     text-align: center;
 }
-#instrucciones{
+
+#instrucciones {
     text-align: center;
 }
-#box4{
-   
-    padding-top: 50px;
-    padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 500px;
-    
-}
-#box5{
 
+#box4 {
     padding-top: 50px;
     padding-right: 30px;
     padding-bottom: 50px;
     padding-left: 500px;
-    
 }
-#codificar{
+
+#box5 {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 500px;
+}
+
+#codificar {
     height: 25px;
     border: 3px solid rgb(10, 70, 10);
-    color:rgb(10, 70, 10);
+    color: rgb(10, 70, 10);
     font-family: 'Lucida Sans';
     font-weight: bold;
     display: inline-block;
     left: 15%;
     font-size: 14px;
 }
-#decodificar{
+
+#decodificar {
     height: 25px;
     border: 3px solid rgb(10, 70, 10);
-    color:rgb(10, 70, 10);
+    color: rgb(10, 70, 10);
     font-family: 'Lucida Sans';
     font-weight: bold;
     display: inline-block;
     font-size: 14px;
 }
-#finalizar{
+
+#finalizar {
     height: 25px;
     border: 3px solid rgb(10, 70, 10);
-    color:rgb(10, 70, 10);
+    color: rgb(10, 70, 10);
     font-family: 'Lucida Sans';
     font-weight: bold;
     display: inline-block;
     font-size: 14px;
 }
-#continuar{
+
+#continuar {
     height: 25px;
     border: 3px solid rgb(10, 70, 10);
-    color:rgb(10, 70, 10);
+    color: rgb(10, 70, 10);
     font-family: 'Lucida Sans';
     font-weight: bold;
     display: inline-block;
-    font-size: 14px;   
+    font-size: 14px;
 }
-#box6{
+
+#box6 {
     display: inline-block;
     vertical-align: top;
     margin-top: 25px;
 }
-#box7{
+
+#box7 {
     display: inline-block;
 }
-#box8{
+
+#box8 {
     display: inline-block;
 }
-#box9{
+
+#box9 {
     display: inline-block;
     vertical-align: top;
     margin-top: 35px;
 }
-#cajacodificar{
-    width:500px;
-    height:100px;
+
+#cajacodificar {
+    width: 500px;
+    height: 100px;
 }
-#cajadecodificar{
-    width:500px;
-    height:100px;
+
+#cajadecodificar {
+    width: 500px;
+    height: 100px;
 }
-#numerosab{
+
+#numerosab {
     text-align: center;
     height: 25px;
     width: 300px;
     border: 3px solid rgb(10, 70, 10);
-    color:rgb(10, 70, 10);
+    color: rgb(10, 70, 10);
     font-family: 'Lucida Sans';
     font-weight: bold;
     display: inline-block;
-    font-size: 20px;   
-    size:"100"
-
-    
-
+    font-size: 20px;
+    size: "100"
 }
-#lista1{
-    list-style-position: inside;
 
+#lista1 {
+    list-style-position: inside;
 }
 
 ol li {
@@ -158,32 +180,36 @@ ol li {
     margin-left: 35px;
     margin-right: 80px;
     font-family: 'Lucida Sans';
-  }
-  
-  ul li {
+    margin-bottom: 5%;
+}
+
+ul li {
     background: #cce5ff;
     margin: 5px;
     font-family: 'Lucida Sans';
-  }
+}
 
-  h4{
-    font-size: 25px;
-    color: rgb(10, 70, 10);
-    background-color: aqua;
-    font-family: 'Lucida Sans';
-} 
-
-h3{
+h4 {
+    margin-bottom: 5%;
     font-size: 25px;
     color: rgb(10, 70, 10);
     background-color: aqua;
     font-family: 'Lucida Sans';
 }
-#userww{
+
+h3 {
+    font-size: 25px;
+    color: rgb(10, 70, 10);
+    background-color: aqua;
+    font-family: 'Lucida Sans';
+    margin-bottom: 5%;
+}
+
+#userww {
     font-weight: bolder;
     font-size: 25px;
     color: rgb(10, 70, 10);
     background-color: aqua;
     font-family: 'Lucida Sans';
-
+    margin-bottom: 5%;
 }
