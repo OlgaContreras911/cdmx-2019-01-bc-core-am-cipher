@@ -38,7 +38,7 @@ let buttonFinalizar = document.getElementById('finalizar')
 codificar.addEventListener('click', () => {
 
   let newValorOffset = valorOffset.value;
-  let newMayus = mayus.value.toUpperCase();
+  let newMayus = mayus.value;
   const resultadoImpreso = window.cipher.encode(newValorOffset, newMayus)
   cajaDecodificar.innerHTML = resultadoImpreso;
 
