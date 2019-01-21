@@ -47,7 +47,7 @@ codificar.addEventListener('click', () => {
 decodificar.addEventListener('click', () => {
 
   let newValorOffset = valorOffset.value;
-  let newMayus = mayus.value.toUpperCase();
+  let newMayus = mayus.value;
   window.cipher.decode(newValorOffset, newMayus)
   const resultadoImpreso2 = window.cipher.decode(newValorOffset, newMayus)
   cajaDecodificar.innerHTML = resultadoImpreso2;
