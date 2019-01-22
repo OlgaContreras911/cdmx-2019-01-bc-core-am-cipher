@@ -4,6 +4,7 @@ window.cipher = {
 
   encode: (newValorOffset, newMayus) => {
     let primerCifrado = "";
+    
     for (let i = 0; i < newMayus.length; i++) {
 
     if (newMayus.charCodeAt(i) >= 97 && newMayus.charCodeAt(i) <=  122){
@@ -16,7 +17,7 @@ window.cipher = {
       let resultadoFinal = String.fromCharCode(formulaCifrado);
       primerCifrado += resultadoFinal;
 
-      } else if (newMayus.charCodeAt(i) >= 32 && newMayus.charCodeAt(i) <=  64){
+      } else{
       
       let resultadoFinal = String.fromCharCode(newMayus.charCodeAt(i));
       primerCifrado += resultadoFinal;
@@ -42,7 +43,7 @@ window.cipher = {
       let formulaCifrado = (newMayus.charCodeAt(i) + 65 - parseInt(newValorOffset)) % 26 + 65;
       let resultadoFinal = String.fromCharCode(formulaCifrado);
       primerCifrado += resultadoFinal;
-      } else if (newMayus.charCodeAt(i) >= 32 && newMayus.charCodeAt(i) <=  64){
+      } else{
       
         let resultadoFinal = String.fromCharCode(newMayus.charCodeAt(i));
         primerCifrado += resultadoFinal;
