@@ -6,10 +6,10 @@ describe('cipher', () => {
 
   describe('cipher.encode', () => {
 
-    it('debería retornar "abcdefghijklmnopqrstuvwxyz" para "hijklmnopqrstuvwxyzabcdefg" con offset 33', () => {
+    it('debería retornar "hijklmnopqrstuvwxyzabcdefg" para "abcdefghijklmnopqrstuvwxyz" con offset 33', () => {
       assert.equal(
-       cipher.encode(33, 'hijklmnopqrstuvwxyzabcdefg'),
-     'abcdefghijklmnopqrstuvwxyz'
+       cipher.encode(33, 'abcdefghijklmnopqrstuvwxyz'),
+     'hijklmnopqrstuvwxyzabcdefg'
       );
     });
 
