@@ -13,7 +13,7 @@ window.cipher = {
       primerCifrado += resultadoFinal;
     } else if (newMayus.charCodeAt(i) >= 65 && newMayus.charCodeAt(i) <=  90){
      
-      let formulaCifrado = (newMayus.charCodeAt(i) - 65 + parseInt(newValorOffset)) % 26 + 65;
+      let formulaCifrado = (newMayus.charCodeAt(i) - 65 + parseInt(newValorOffset)+26) % 26 + 65;
       let resultadoFinal = String.fromCharCode(formulaCifrado);
       primerCifrado += resultadoFinal;
 
