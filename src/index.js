@@ -34,6 +34,7 @@ let cajaDecodificar = document.getElementById('cajadecodificar')
 let buttonAceptar = document.getElementById('aceptar')
 let buttonContinuar = document.getElementById('continuar')
 let buttonFinalizar = document.getElementById('finalizar')
+let buttonReiniciar = document.getElementById('reiniciar')
 
 codificar.addEventListener('click', () => {
 
@@ -85,3 +86,11 @@ const finalizar = () => {
   location.reload(true);
 }
 buttonFinalizar.addEventListener('click', finalizar)
+
+const reiniciar = () => {
+  document.getElementById('numerosab').value = '';
+  document.getElementById('cajacodificar').value = '';
+  document.getElementById('cajadecodificar').innerHTML = '';
+}
+
+buttonReiniciar.addEventListener('click', reiniciar)

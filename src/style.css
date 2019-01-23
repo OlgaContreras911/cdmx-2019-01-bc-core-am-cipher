@@ -1,29 +1,34 @@
-
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+@import url('https://fonts.googleapis.com/css?family=VT323');
 * {
     
     margin: 0;
     padding: 0;
   
   }
+ 
 
 .ocultar {
     display: none;
 }
 
 h1 {
-    color: rgb(10, 70, 10);
-    background-color: aqua;
+    margin-top: 3%;
+    color: white;
+    
     text-align: center;
-    font-size: 2cm;
-    font-family:  'Orbitron', sans-serif;
+    font-size: 6vw;
+    font-family:  'Press Start 2P', cursive;
     margin-bottom: 5%;
 }
 
 h2 {
-    color: rgb(10, 70, 10);
-    background-color: aqua;
-    font-family: 'Lucida Sans';
+    margin-top: 6%;
+    color: white;
+    font-size: 2vw;
+    font-family: 'Press Start 2P', cursive;
     margin-bottom: 5%;
+    text-align: center;
 }
 
 #box1 {
@@ -35,42 +40,52 @@ h2 {
 #box2 {
     background-color: palevioletred;
     height: 650px;
-    background-color: #151615;
-    background-image: linear-gradient(225deg, #151615 0%, #56b71b 50%, #101010 100%);
+    background-image: url(https://media.tenor.com/images/e5f477f2b76c22e3def700c6bd7ef036/tenor.gif);
 
 }
 
 #box3 {
     background-color: palevioletred;
     height: 650px;
-    background-color: #151615;
-    background-image: linear-gradient(225deg, #151615 0%, #56b71b 50%, #101010 100%);
+    background-image: url(https://media.tenor.com/images/e5f477f2b76c22e3def700c6bd7ef036/tenor.gif);
 
 }
 
 #aceptar {
-    height: 30px;
-    background-color: aqua;
+    height: 50px;
+    background-color: #368c3a;
     border: 3px solid rgb(10, 70, 10);
-    color: rgb(10, 70, 10);
+    color: white;
     text-align: center;
     font-family: 'Lucida Sans';
     font-weight: bold;
     display: inline-block;
-    font-size: 20px;
+    transition-duration: 0.4s;
     border-radius: 6px;
+    margin-left: 45%;
+    font-size: 1.8vw;
+    width: 8%;
+    margin-top: 3%;
 
 }
+  
+#aceptar:hover {
+    background-color:rgb(10, 70, 10); /* Green */
+    color: white;
+  }
 
 #name {
-    height: 25px;
+    height: 45px;
     border: 3px solid rgb(10, 70, 10);
     color: rgb(10, 70, 10);
     font-family: 'Lucida Sans';
     font-weight: bold;
     display: inline-block;
-    font-size: 20px;
+    font-size: 1.8vw;
     border-radius: 6px;
+    margin-left: 39%;
+    padding-left: 1%;
+    width: 20%;
 }
 
 li {
@@ -97,45 +112,102 @@ li {
 }
 
 #codificar {
-    height: 25px;
+    height: 50px;
+    background-color: #368c3a;
     border: 3px solid rgb(10, 70, 10);
-    color: rgb(10, 70, 10);
+    color: white;
+    text-align: center;
     font-family: 'Lucida Sans';
     font-weight: bold;
     display: inline-block;
+    transition-duration: 0.4s;
+    border-radius: 6px;
     left: 15%;
     font-size: 14px;
+    width: 100px;
 }
+#codificar:hover {
+    background-color:rgb(10, 70, 10); /* Green */
+    color: white;
+  }
 
 #decodificar {
-    height: 25px;
+    height: 50px;
+    background-color: #368c3a;
     border: 3px solid rgb(10, 70, 10);
-    color: rgb(10, 70, 10);
+    color: white;
+    text-align: center;
     font-family: 'Lucida Sans';
     font-weight: bold;
     display: inline-block;
+    transition-duration: 0.4s;
+    border-radius: 6px;
     font-size: 14px;
+    width: 100px;
 }
+#decodificar:hover {
+    background-color:rgb(10, 70, 10); /* Green */
+    color: white;
+  }
 
 #finalizar {
-    height: 25px;
+    height: 50px;
+    background-color: #368c3a;
     border: 3px solid rgb(10, 70, 10);
-    color: rgb(10, 70, 10);
+    color: white;
+    text-align: center;
     font-family: 'Lucida Sans';
     font-weight: bold;
     display: inline-block;
+    transition-duration: 0.4s;
+    border-radius: 6px;
     font-size: 14px;
+    width: 100px;
 }
-
+#finalizar:hover {
+    background-color:rgb(10, 70, 10); /* Green */
+    color: white;
+  }
 #continuar {
-    height: 25px;
+    height: 50px;
+    background-color: #368c3a;
     border: 3px solid rgb(10, 70, 10);
-    color: rgb(10, 70, 10);
+    color: white;
+    text-align: center;
     font-family: 'Lucida Sans';
     font-weight: bold;
     display: inline-block;
-    font-size: 14px;
+    transition-duration: 0.4s;
+    border-radius: 6px;
+    margin-top: 5%;
+    font-size: 1.8vw;
+    margin-left: 5%;
+    width: 100px;
+
 }
+#continuar:hover {
+    background-color:rgb(10, 70, 10); /* Green */
+    color: white;
+  }
+#reiniciar{
+    height: 50px;
+    background-color: #368c3a;
+    border: 3px solid rgb(10, 70, 10);
+    color: white;
+    text-align: center;
+    font-family: 'Lucida Sans';
+    font-weight: bold;
+    display: inline-block;
+    transition-duration: 0.4s;
+    border-radius: 6px;
+    font-size: 14px;
+    width: 100px;
+
+}
+#reiniciar:hover {
+    background-color:rgb(10, 70, 10); /* Green */
+    color: white;
+  }
 
 #box6 {
     display: inline-block;
@@ -187,43 +259,46 @@ li {
 }
 
 ol li {
-    background: #010911;
+   
     padding: 5px;
     margin-left: 80px;
     margin-right: 80px;
-    font-family: 'Lucida Sans';
+    font-family: 'Press Start 2P', cursive;
     color: white;
     
 }
 
 ul li {
-    background: #010911;
-    margin: 5px;
-    font-family: 'Lucida Sans';
-    color:white;
+    
+    margin: 5%;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
 }
 
 h4 {
     margin-bottom: 5%;
-    font-size: 25px;
+    font-size: 20px;
     color: rgb(10, 70, 10);
-    background-color: aqua;
-    font-family: 'Lucida Sans';
+    font-family: 'Press Start 2P', cursive;
+    color: white;
 }
 
 h3 {
-    font-size: 25px;
-    color: rgb(10, 70, 10);
-    background-color: aqua;
-    font-family: 'Lucida Sans';
+    font-size: 2.5vw;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
     margin-bottom: 5%;
+    padding-top: 1%;
+    padding-left: 1%;
 }
 
 #userww {
     font-weight: bolder;
-    font-size: 25px;
-    color: rgb(10, 70, 10);
-    background-color: aqua;
-    font-family: 'Lucida Sans';
+    font-size: 30px;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
     margin-bottom: 5%;
+    padding-top: 30px;
+    padding-left: 5%;
+
 }
