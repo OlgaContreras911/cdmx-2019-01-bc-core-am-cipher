@@ -56,7 +56,7 @@ El ususario puede ingresar el mensaje que necesite transformar, este puede inclu
 Al utilizar el boceto, los usuarios se sintieron confundidos con el uso de las cajas, pues olvidaban poner el número de desplazamiento (offset) al momento de intentar decifrar/cifrar el mensaje; también expresaron sentir que los botones eran muy pequeños y por lo tanto difíciles de utilizar, en este sentido, les gustaría poder tener un botón que no solo finalíce la aplicación y los retorne al inicio, si  no también un botón que les permita limpiar los campos para poder empezar de nuevo sin tener que regresar o borrar los mensajes manualmente; expresaron agrado por el detalle de ver su nombre impreso en pantalla, pues les hizo sentir cierto grado de personalización y confianza; por último expresaron gran aceptación por el fondo utilizado en la primer pantalla, sin embargo los encabezados y el color de fondo en las otras dos pantallas no fueron del agrado visual, expresando que no les hacia sentir que estaban utilizando una aplicación dedicada a cifrar mensajes.  Si deseas consultar físicamente ingresa al siguiente link: (https://marvelapp.com/8204i2d/screen/52336642).
 
 ## Resultado Final
-<img src="https://i.ibb.co/RDSL5xT/pantalla1.png" alt="pantalla1"></a>
+<a href="https://ibb.co/bdvdbVG"><img src="https://i.ibb.co/0J9JsLz/hihih.png" alt="hihih"></a>
 
 
 
