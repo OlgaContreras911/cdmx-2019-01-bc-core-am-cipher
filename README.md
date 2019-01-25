@@ -54,10 +54,24 @@ Al utilizar Ceasar Code Message Mario ha logrado evitar esto,  pues no solo ha l
 El ususario puede ingresar el mensaje que necesite transformar, este puede incluir números, mayúsculas, minúsculas y espacios; además de esto, puede elegir el número de posiciones a las que desee desplazar su mensaje.
 ## Boceto
 Al utilizar el boceto, los usuarios se sintieron confundidos con el uso de las cajas, pues olvidaban poner el número de desplazamiento (offset) al momento de intentar decifrar/cifrar el mensaje; también expresaron sentir que los botones eran muy pequeños y por lo tanto difíciles de utilizar, en este sentido, les gustaría poder tener un botón que no solo finalíce la aplicación y los retorne al inicio, si  no también un botón que les permita limpiar los campos para poder empezar de nuevo sin tener que regresar o borrar los mensajes manualmente; expresaron agrado por el detalle de ver su nombre impreso en pantalla, pues les hizo sentir cierto grado de personalización y confianza; por último expresaron gran aceptación por el fondo utilizado en la primer pantalla, sin embargo los encabezados y el color de fondo en las otras dos pantallas no fueron del agrado visual, expresando que no les hacia sentir que estaban utilizando una aplicación dedicada a cifrar mensajes.  Si deseas consultar físicamente ingresa al siguiente link: (https://marvelapp.com/8204i2d/screen/52336642).
-
 ## Resultado Final
-<a href="https://ibb.co/bdvdbVG"><img src="https://i.ibb.co/0J9JsLz/hihih.png" alt="hihih"></a>
+<img src="https://i.ibb.co/C090PyS/hihih.png" alt="hihih" border="0">
 
+Modifique el encabezado y el tipo de letra en todo el contenido, dandole un aspecto mucho más acorde al tema, agrande los bótones y los campos para el usuario.
+
+ <img src="https://i.ibb.co/5rjBJbD/pantalla12.png" alt="pantalla12" border="0">
+
+ Le di una temática unifirme a todo el concepto, lo que agrado bastante al usuario, sumergiéndolo en un ambiente computacional clásico.
+
+<img src="https://i.ibb.co/gdF5GBN/p3.png" alt="p3" border="0">
+
+Finalmente, agregue el bóton solicitado por el usuario y reacomode los espacios, recibiendo gran aceptación por el usuario.
+
+## Objetivos
+
+Utilizar el offset que el usuario decida ingresar para decifrar y cifrar de la siguiente manera:
+ - Recibe mensaje/texto, convierte al código ASCII, cifra y convierte en *String*
+ -  Recibe mensaje/texto, convierte al código ASCII, decifra y convierte en *String*
 
 
 Para obtener este proyecto, entra a este link....
