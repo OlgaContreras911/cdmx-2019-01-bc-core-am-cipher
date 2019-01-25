@@ -23,7 +23,7 @@ window.cipher = {
       primerCifrado += resultadoFinal;
 
       }
-      //document.getElementById('cajadecodificar').innerHTML= primerCifrado;
+      
     }
     return primerCifrado
   },
